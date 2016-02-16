@@ -1,0 +1,201 @@
+
+/*
+Project Name: Final Project
+Author: Melissa McLaughlin
+Front End Developer @GA in NYC
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+font-family: 'News Cycle', sans-serif;
+}
+
+header {
+	background-color: #000;
+	height: 135px;
+	padding-top: 50px;
+}
+
+
+footer {
+	background-color: #000;
+	height: 70px;
+	padding: 25px;
+	clear: both;
+}
+
+footer h5 {
+	font-family: 'Source Sans Pro', sans-serif;'
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+	float: left;
+}
+
+nav {
+	float:right;
+	list-style:none;
+}
+
+
+ul li{
+	font-family: 'News Cycle', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	display: inline;
+	padding-right: 30px;
+}
+
+.logoIMG {
+	image: url("images/Logo_white.png");
+	height: 96.3px;
+	width: 114.67px;
+}
+
+.active { 
+    background-color: #c6c6c6;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 40px; 
+}
+
+.navlist a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+  color: #d11940;
+  text-decoration: none;
+}
+
+
+.seasonal {
+	background-image:url('images/Seasonal_Ad.jpg');
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro', serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+h4 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #000;
+	padding-bottom: 15px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+h6 {
+	font-family: 'Oswald', serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	padding: 15px;
+}
+
+.button1 {
+	height: 50px;
+    width: 250px;
+    border-color: #fdf731;
+    background-color: #fdf731;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    line-height: 1px;
+    margin: 10px;
+}
+
+.button2 {
+	height: 50px;
+    width: 250px;
+    border-color: #c6c6c6;
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.sideblurb {
+	float: right;
+	background-color: #FFF;
+}
+
+.sideblurb h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #000;
+
+}
+
+.column1 {
+ 	width: 260px;
+ 	height: 200px;
+  	float: left;
+  	margin: 40px 90px 40px 40px;
+  	padding-right: 50px;
+  	clear: both;
+}
+
+.column1 p {
+ 	line-height: 30px;
+
+}
+
+.column2 {
+ 	width: 300px;
+ 	height: 200px;
+  	float: left;
+  	margin: 40px 10px 40px 70px;
+  	padding-right: 50px;
+}
+
+.column2 p {
+ 	line-height: 30px;
+ 	
+}
+
+.column3 {
+ 	width: 260px;
+ 	height: 200px;
+  	float: left;
+  	margin: 40px 10px 40px 40px;
+  	padding-left: 60px;
+}
+
+.column3 p {
+ 	line-height: 30px;
+ 	
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+
