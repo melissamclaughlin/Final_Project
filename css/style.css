@@ -11,191 +11,149 @@ Front End Developer @GA in NYC
   box-sizing: border-box; /* IE */
 }
 
-body {
-font-family: 'News Cycle', sans-serif;
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
-header {
-	background-color: #000;
-	height: 135px;
-	padding-top: 50px;
-}
-
-
-footer {
-	background-color: #000;
-	height: 70px;
-	padding: 25px;
-	clear: both;
-}
-
-footer h5 {
-	font-family: 'Source Sans Pro', sans-serif;'
-	font-size: 30px;
-	font-weight: 400;
-	color: #ffffff;
-	float: left;
-}
-
-nav {
-	float:right;
-	list-style:none;
-}
-
-
-ul li{
+h1 {
 	font-family: 'News Cycle', sans-serif;
-	font-size: 25px;
 	font-weight: 700;
-	color: #fff;
-	display: inline;
-	padding-right: 30px;
+	font-size: 85px;
+	text-align: center;
+	color: #000;
+	margin: 0;
+	padding: 0;
 }
 
-.logoIMG {
-	image: url("images/Logo_white.png");
-	height: 96.3px;
-	width: 114.67px;
+h2 {
+	font-family: 'News Cycle', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+	margin: 0;
+	padding: 0;
 }
-
-.active { 
-    background-color: #c6c6c6;
-    color: #000;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 35px;
-    padding-bottom: 40px; 
-}
-
-.navlist a {
-	text-decoration: none;
-	color: #FFF;
-}
-
-a:hover {
-  color: #d11940;
-  text-decoration: none;
-}
-
-
-.seasonal {
-	background-image:url('images/Seasonal_Ad.jpg');
-}
-
 
 h3 {
-	font-family: 'Source Sans Pro', serif;
+	font-family: 'News Cycle', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+
+#header {
+	width: 100%;
+	background-color: #000;
+	height: 80px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+#nav { 
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+#nav ul {
+	margin: 0 auto;
+}
+
+#nav ul li {
+	margin-top: 9px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: inline-block;
+	list-style: none;
+}
+
+#nav li a { 
+	color: #fff;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 16px; 
+	text-decoration: none; 
+	font-family: 'News Cycle', sans-serif;
+}
+
+#nav li a:hover { 
+	color: #d11940;
+	font-weight: 700; 
+}
+
+#home {
+	background:url('../images/HomeBG.jpg') 100% 0 no-repeat fixed;
+	color: #fff;
+	height: 700px;
+	margin: 0;
+	padding: 0px 0 0px 0;
+	background-size: cover;
+}
+
+#ourstory {
+	background-color: #d11940;
 	color: #000;
-	padding-bottom: 15px;
+	height: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
 }
 
-h4 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 25px;
+#ourstory h1{
+	color: #fff;
+}
+
+#beers {
+	background-color: #000;
+	color: #fff;
+	height: 700px;
+	padding: 170px 0 0 0;
+}
+
+#beers h1{
+	color: #d11940;
+}
+
+#visit {
+	background-color: #fff;
+	color: #d11940;
+	height: 700px;
+	padding: 200px 0;
+}
+
+#events {
+	background-color: #d11940;
+	height: 700px;
+	margin: 0 auto;
+	padding: 250px 0;
 	color: #000;
-	padding-bottom: 15px;
 }
 
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
-	font-size: 20px;
+#events h1{
+	color: #fff;
 }
 
-h6 {
-	font-family: 'Oswald', serif;
-	font-weight: 700;
-	font-size: 20px;
-	color: #000;
-	padding: 15px;
+#contact {
+	background-color: #000;
+	color: #fff;
+	height: 700px;
+	padding: 200px 0;
 }
 
-.button1 {
-	height: 50px;
-    width: 250px;
-    border-color: #fdf731;
-    background-color: #fdf731;
-    border-radius: 5px;
-    float: left;
-    text-align: center;
-    line-height: 1px;
-    margin: 10px;
+#contact h1{
+	color: #d11940;
 }
-
-.button2 {
-	height: 50px;
-    width: 250px;
-    border-color: #c6c6c6;
-    background-color: #c6c6c6;
-    border-radius: 5px;
-    float: left;
-    text-align: center;
-    margin: 10px;
-}
-.shadow {
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;
-}
-
-.sideblurb {
-	float: right;
-	background-color: #FFF;
-}
-
-.sideblurb h3 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 25px;
-	color: #000;
-
-}
-
-.column1 {
- 	width: 260px;
- 	height: 200px;
-  	float: left;
-  	margin: 40px 90px 40px 40px;
-  	padding-right: 50px;
-  	clear: both;
-}
-
-.column1 p {
- 	line-height: 30px;
-
-}
-
-.column2 {
- 	width: 300px;
- 	height: 200px;
-  	float: left;
-  	margin: 40px 10px 40px 70px;
-  	padding-right: 50px;
-}
-
-.column2 p {
- 	line-height: 30px;
- 	
-}
-
-.column3 {
- 	width: 260px;
- 	height: 200px;
-  	float: left;
-  	margin: 40px 10px 40px 40px;
-  	padding-left: 60px;
-}
-
-.column3 p {
- 	line-height: 30px;
- 	
-}
-
-.clearfix {
-  overflow: auto;
-}
-
-
