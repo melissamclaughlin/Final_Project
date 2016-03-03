@@ -17,7 +17,26 @@ Front End Developer @GA in NYC
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
 
-body{
+.BeerColOne {
+	float: left;
+	padding-top: 30px;
+	width: 255px;
+}
+
+.BeerColTwo {
+	float: left;
+	margin-left: 90px;
+	padding-top: 30px;
+	width: 270px;
+}
+
+.BeerColThree {
+	float: right;
+	padding-top: 30px;
+	width: 270px;
+}
+
+body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -28,6 +47,7 @@ h1 {
 	font-weight: 700;
 	font-size: 85px;
 	text-align: center;
+	letter-spacing: 2px;
 	color: #000;
 	margin: 0;
 	padding: 0;
@@ -36,9 +56,10 @@ h1 {
 h2 {
 	font-family: 'News Cycle', sans-serif;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 24px;
 	text-align: center;
-	color: #000;
+	font-weight: 700;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -50,10 +71,16 @@ h3 {
 	text-align: center;
 	margin: 5px 0;
 	padding: 0;
-	z-index: 1;
 	position: relative;
 }
 
+#gem {
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
 
 #header {
 	width: 100%;
@@ -61,12 +88,14 @@ h3 {
 	height: 80px;
 	position: fixed;
 	margin-top: 0px;
+	z-index: 1;
 }
 
 #nav { 
 	width: 100%;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 8px;
+	letter-spacing: 1.5px;
 }
 
 
@@ -110,7 +139,7 @@ h3 {
 	height: 700px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 200px 0;
+	padding: 100px 0;
 }
 
 #ourstory h1{
@@ -121,25 +150,30 @@ h3 {
 	background-color: #000;
 	color: #fff;
 	height: 700px;
-	padding: 170px 0 0 0;
+	padding: 100px 0 0 0;
 }
 
 #beers h1{
 	color: #d11940;
 }
 
+#beers h3{
+	float: left;
+}
+
+
 #visit {
 	background-color: #fff;
 	color: #d11940;
 	height: 700px;
-	padding: 200px 0;
+	padding: 100px 0;
 }
 
 #events {
 	background-color: #d11940;
 	height: 700px;
 	margin: 0 auto;
-	padding: 250px 0;
+	padding: 100px 0;
 	color: #000;
 }
 
@@ -151,7 +185,7 @@ h3 {
 	background-color: #000;
 	color: #fff;
 	height: 700px;
-	padding: 200px 0;
+	padding: 100px 0;
 }
 
 #contact h1{
