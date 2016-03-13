@@ -136,7 +136,7 @@ h3 {
 }
 
 #nav li a:hover { 
-	color: #d11940;
+	color: #ff377e;
 	font-weight: 700;
 	-webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
@@ -155,7 +155,7 @@ h3 {
 }
 
 #ourstory {
-	background-color: #d11940;
+	background-color: #ff377e;
 	color: #000;
 	height: 700px;
 	margin: 0 auto;
@@ -175,7 +175,7 @@ h3 {
 }
 
 #beers h1{
-	color: #d11940;
+	color: #ff377e;
 }
 
 #beers h3{
@@ -185,13 +185,13 @@ h3 {
 
 #visit {
 	background-color: #fff;
-	color: #d11940;
+	color: #ff377e;
 	height: 700px;
 	padding: 100px 0;
 }
 
 #events {
-	background-color: #d11940;
+	background-color: #ff377e;
 	height: 700px;
 	margin: 0 auto;
 	padding: 100px 0;
@@ -210,5 +210,5 @@ h3 {
 }
 
 #contact h1{
-	color: #d11940;
+	color: #ff377e;
 }
